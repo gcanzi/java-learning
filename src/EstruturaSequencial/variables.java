@@ -1,3 +1,4 @@
+package EstruturaSequencial;
 import java.util.Locale;
 
 public class variables {
