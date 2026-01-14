@@ -33,11 +33,11 @@ public class alturas {
 		int menor = 0;
 		for (int i=0; i<n; i++) {
 			 if (vIdade[i] < 16) {
-				 menor += 1;
+				 menor++;
 			 }
 		}
-		double mediaMenor = menor / n * 100;
-		System.out.println("Pessosas com menos de 16 anos: " + mediaMenor + "%");
+		double mediaMenor = ((double)menor / n) * 100;
+		System.out.printf("Pessosas com menos de 16 anos: %.1f%%\n", mediaMenor);
 		
 		for (int i=0; i<n; i++) {
 			 if (vIdade[i] < 16) {
