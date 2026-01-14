@@ -11,10 +11,11 @@ public class hotel {
 		
 		System.out.print("How many rooms will be rented? ");
 		int n = sc.nextInt();
+		System.out.println();
 		
 		for (int i=1; i<=n; i++) {
 			sc.nextLine();
-			System.out.println("Rent #" + i);
+			System.out.println("Rent #" + i + ":");
 			System.out.print("Name: ");
 			String name = sc.nextLine();
 			System.out.print("Email: ");
