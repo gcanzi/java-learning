@@ -19,6 +19,13 @@ public class Funcionarios {
 			System.out.println("Funcionário #" + (i+1) + ":");
 			System.out.print("Id: ");
 			int id = sc.nextInt();
+			for (int j = 0; j < i; j++) {
+			    if (vect[j].getId() == id) {
+			        System.out.print("Id já cadastrado! Tente novamente: ");
+			        id = sc.nextInt();
+			        j = -1;
+			    }
+			}
 			sc.nextLine();
 			System.out.print("Nome: ");
 			String nome = sc.nextLine();
