@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Position {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner (System.in);
 		
 		int m = sc.nextInt();
 		int n = sc.nextInt();
