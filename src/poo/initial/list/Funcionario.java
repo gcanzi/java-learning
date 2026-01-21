@@ -1,4 +1,4 @@
-package poo.list;
+package poo.initial.list;
 
 public class Funcionario {
 

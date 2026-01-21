@@ -1,4 +1,4 @@
-package poo.lojaTv.entities;
+package poo.initial.lojaTv.entities;
 
 public class Product {
 

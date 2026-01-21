@@ -1,4 +1,4 @@
-package poo.retangulo;
+package poo.initial.retangulo;
 
 public class rectangle {
 	

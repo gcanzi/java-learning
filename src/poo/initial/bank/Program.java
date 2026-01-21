@@ -1,4 +1,4 @@
-package poo.bank;
+package poo.initial.bank;
 
 import java.util.Locale;
 import java.util.Scanner;

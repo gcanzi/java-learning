@@ -1,4 +1,4 @@
-package poo.funcionario;
+package poo.initial.funcionario;
 
 import java.util.Locale;
 import java.util.Scanner;

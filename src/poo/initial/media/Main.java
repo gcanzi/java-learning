@@ -1,4 +1,4 @@
-package poo.media;
+package poo.initial.media;
 
 import java.util.Locale;
 import java.util.Scanner;

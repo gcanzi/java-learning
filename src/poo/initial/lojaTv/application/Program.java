@@ -1,9 +1,9 @@
-package poo.lojaTv.application;
+package poo.initial.lojaTv.application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import poo.lojaTv.entities.Product;
+import poo.initial.lojaTv.entities.Product;
 
 public class Program {
 	public static void main(String[] args) {

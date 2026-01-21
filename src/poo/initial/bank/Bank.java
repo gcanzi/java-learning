@@ -1,4 +1,4 @@
-package poo.bank;
+package poo.initial.bank;
 
 public class Bank {
 

@@ -1,4 +1,4 @@
-package poo.media;
+package poo.initial.media;
 
 public class aluno {
 	public String nome;

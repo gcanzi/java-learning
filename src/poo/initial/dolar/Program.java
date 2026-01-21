@@ -1,4 +1,4 @@
-package poo.dolar;
+package poo.initial.dolar;
 
 import java.util.Locale;
 import java.util.Scanner;

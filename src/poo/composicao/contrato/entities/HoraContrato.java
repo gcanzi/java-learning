@@ -1,0 +1,48 @@
+package poo.composicao.contrato.entities;
+
+import java.util.Date;
+
+public class HoraContrato {
+	
+	private Date date;
+	private Double valuePerHour;
+	private Integer hours;
+	
+	public HoraContrato() {
+		
+	}
+	
+	public HoraContrato(Date contractDate, Double valuePerHour, Integer hours) {
+		this.date = contractDate;
+		this.valuePerHour = valuePerHour;
+		this.hours = hours;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	public Double getValuePerHour() {
+		return valuePerHour;
+	}
+
+	public void setValuePerHour(Double valuePerHour) {
+		this.valuePerHour = valuePerHour;
+	}
+
+	public Integer getHours() {
+		return hours;
+	}
+
+	public void setHours(Integer hours) {
+		this.hours = hours;
+	}
+	
+	public double totalValue() {
+		return valuePerHour * hours;
+	}
+}

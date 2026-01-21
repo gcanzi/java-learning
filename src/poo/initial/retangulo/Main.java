@@ -1,4 +1,4 @@
-package poo.retangulo;
+package poo.initial.retangulo;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package poo.funcionario;
+package poo.initial.funcionario;
 
 public class funcionario {
 	public String nome;
