@@ -33,7 +33,7 @@ public class CalcDateTime {
 		System.out.println("nextWeekInstant = " + nextWeekInstant);
 		
 		Duration t1 = Duration.between(pastWeekLocalDateTime, d02);
-		Duration t2 = Duration.between(pastWeekLocalDate.atStartOfDay(), d01.atTime(0, 0));
+		Duration t2 = Duration.between(pastWeekLocalDate.atStartOfDay(), d01.atTime(1, 0));
 		Duration t3 = Duration.between(pastWeekInstant, d03);
 		Duration t4 = Duration.between(d03, pastWeekInstant);
 		
