@@ -21,7 +21,7 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter client data: ");
+		System.out.println("Enter client data:");
 		System.out.print("Name: ");
 		String name = sc.nextLine();
 		System.out.print("Email: ");
