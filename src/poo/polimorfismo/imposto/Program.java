@@ -46,6 +46,14 @@ public class Program {
 			System.out.println(tax.getName() + ": $ " + String.format("%.2f", tax.tax()));
 		}
 		
+		double sum = 0.0;
+		for (TaxPayer tax : list) {
+			sum += tax.tax();
+		}
+		
+		System.out.println();
+		System.out.println("TOTAL TAXES: $ " + String.format("%.2f", sum));
+		
 		sc.close();
 	}
 
