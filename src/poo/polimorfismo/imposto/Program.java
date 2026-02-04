@@ -18,7 +18,7 @@ public class Program {
 		int n = sc.nextInt();
 		
 		for (int i=1; i<=n; i++) {
-			System.out.println("Tax payer #" + i + " data:");
+			System.out.println("Tax payer #" + i + " data: ");
 			System.out.print("Individual or company (i/c)? ");
 			char ch = sc.next().charAt(0);
 			sc.nextLine();
